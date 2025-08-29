@@ -17,7 +17,6 @@ export default async function Page() {
 
   return (
     <div className={styles.container}>
-      <h1>Список задач</h1>
       <TodoList initialTodos={initialTodos} />
     </div>
   );

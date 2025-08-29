@@ -1,0 +1,37 @@
+.filterContainer {
+  display: flex;
+  margin-bottom: 20px;
+  gap: 10px;
+}
+
+.filterButton {
+  padding: 8px 16px;
+  border: 1px solid #ccc;
+  background: white;
+  cursor: pointer;
+}
+
+.filterButton.active {
+  background: #4CAF50;
+  color: white;
+}
+
+.addForm {
+  display: flex;
+  margin-top: 20px;
+  gap: 10px;
+}
+
+.taskInput {
+  padding: 8px;
+  flex-grow: 1;
+  border: 1px solid #ccc;
+}
+
+.addButton {
+  padding: 8px 16px;
+  background: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}

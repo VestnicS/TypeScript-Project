@@ -1,0 +1,32 @@
+.taskItem {
+  display: flex;
+  align-items: center;
+  padding: 10px;
+  border: 1px solid #ddd;
+  margin-bottom: 10px;
+  background: white;
+}
+
+.taskCheckbox {
+  margin-right: 10px;
+  width: 20px;
+  height: 20px;
+}
+
+.taskText {
+  flex-grow: 1;
+  font-size: 16px;
+}
+
+.completed {
+  text-decoration: line-through;
+  color: #888;
+}
+
+.deleteButton {
+  background: #ff4444;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+}
